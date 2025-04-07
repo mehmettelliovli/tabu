@@ -1,4 +1,19 @@
 {
-  "name": "TabuGame",
-  "slug": "TabuGame"
+  "expo": {
+    "name": "TabuGame",
+    "slug": "tabugame",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mehmetemintellioglu.tabugame"
+    },
+    "android": {
+      "package": "com.mehmetemintellioglu.tabugame"
+    }
+  }
 }
